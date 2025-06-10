@@ -103,9 +103,4 @@ You can enhance this project with the following features:
 7. **Error Retry Logic**
    - Retry sending messages if the first attempt fails.
 
----
 
-## ⚠️ Disclaimer
-
-- This script uses **WhatsApp Web** automation and is not officially supported by WhatsApp.
-- Use responsibly and do not spam — your account may get flagged.
