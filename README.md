@@ -78,33 +78,29 @@ def send_whatsapp_message(contact, message):
 
 ---
 
-## 💡 Suggested Features to Add
+## 💡 Open to Contribute 
 
 You can enhance this project with the following features:
 
-1. **Custom Message Per Person**
-   - Add a `message` column in Excel.
-   - Read and send personalized messages.
-
-2. **Message Scheduling**
+1. **Message Scheduling**
    - Schedule messages at specific times (use `sendwhatmsg()` with hour/minute).
 
-3. **Multiple Contact Columns Support**
+2. **Multiple Contact Columns Support**
    - Detect and merge numbers from multiple columns (e.g., `work`, `home`, `mobile`).
 
-4. **Delivery Logging**
+3. **Delivery Logging**
    - Save a success/failure log in a CSV/Excel file with timestamps.
 
-5. **GUI Interface**
+4. **GUI Interface**
    - Build a simple GUI using `tkinter` or `PyQt` to select the Excel file and preview messages.
 
-6. **Country Code Flexibility**
+5. **Country Code Flexibility**
    - Detect and format numbers from other countries besides India.
 
-7. **Attachment Support**
+6. **Attachment Support**
    - Automate sending images, PDFs, or media (using Selenium instead of pywhatkit).
 
-8. **Error Retry Logic**
+7. **Error Retry Logic**
    - Retry sending messages if the first attempt fails.
 
 ---
