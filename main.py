@@ -9,7 +9,7 @@ import time
 # Make sure you have WhatsApp Web logged in on your default browser before running this script.
 # Also, ensure that the headings  in the Excel file are in the first row 
 # Make sure there is column named "contact" or "phone" or "mobile" or "number" or "phonenumber" or "mobilenumber" or "contactnumber" or "tel" thats stores the contact numbers.(its not case sensitive)
-#Make sure there is column named "name" for send_msg_to_person
+# Make sure there is column named "name" for send_msg_to_person
 
 # whastapp message sending function
 def send_whatsapp_message(contact, message):
