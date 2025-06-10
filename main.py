@@ -16,7 +16,7 @@ def send_whatsapp_message(contact, message):
     pywhatkit.sendwhatmsg_instantly(contact, message, wait_time=10, tab_close=True)
 
 # path of the Excel file 
-path = "/Users/pranav/Desktop/AutomatedMesaageSender/testContacts.xlsx"
+path = 
 
 # Send message to all contacts in the Excel file 
 def send_msg_to_all_contacts(path,message):
